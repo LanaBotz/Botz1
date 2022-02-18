@@ -1442,7 +1442,7 @@ kurr.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mention
  stod = `${sender}`
  listMsg = {
  buttonText: 'PILIH MENU DISINI',
- footerText: '*_© Yuki ゑ_*',
+ footerText: '*_© Lana Botz ✘_*',
  description: `Hai @${stod.split('@')[0]}\nSaya Adalah Yuki Bot`,
  sections: [
                      {
@@ -1544,57 +1544,57 @@ case 'ownermenu':
        ini_txt += `~${get_result.quote}`
        
        menu = `*─❒ OWNER MENU*
-_書 ${prefix}autorespon [ _on/off_ ]_
-_書 ${prefix}bc [ _teks/reply gif/image/video with caption_ ]_
-_書 ${prefix}tobc [ _reply sticker/audio with caption_ ]_
-_書 ${prefix}return [ _javascript_ ]_
-_書 ${prefix}delchat_
-_書 ${prefix}mute_
-_書 ${prefix}unmute_
-_書 ${prefix}public_
-_書 ${prefix}self_
-_書 ${prefix}spam [ _teks|jumlah_ ]_
-_書 ${prefix}demoteall_
-_書 ${prefix}promoteall_
-_書 ${prefix}addcmd [ _teks reply stc_ ]_
-_書 ${prefix}delcmd [ _reply stc_ ]_
-_書 ${prefix}listcmd_
-_書 ${prefix}spamsw [ _teks|jumlah_ ]_
-_書 ${prefix}upswteks [ _teks_ ]_
-_書 ${prefix}upswlokasi [ _teks_ ]_
-_書 ${prefix}upswaudio [ _reply audio_ ]_
-_書 ${prefix}upswvoice [ _reply audio_ ]_
-_書 ${prefix}upswsticker [ _reply sticker_ ]_
-_書 ${prefix}upswimage [ _reply image with caption_ ]_
-_書 ${prefix}upswgif [ _reply gif with caption_ ]_
-_書 ${prefix}upswvideo [ _reply video with caption_ ]_
-_書 ${prefix}shutdown_
-_書 ${prefix}offline [ _alasan_ ]_
-_書 ${prefix}online_
-_書 ${prefix}exif [ _nama|author_ ]_
-_書 ${prefix}setprofile [ _reply image_ ]_
-_書 ${prefix}setname [ _teks_ ]
-_書 ${prefix}setprefix [ _multi/nopref/prefix_ ]_
-_書 ${prefix}setbio [ _teks_ ]_
-_書 ${prefix}leave_
-_書 ${prefix}restart_
-_書 ${prefix}addrespon [ _tanya|jawab_ ]_
-_書 ${prefix}delrespon [ _nama_ ]_
-_書 ${prefix}listrespon_
-_書 ${prefix}readall_
-_書 ${prefix}unreadall_
-_書 ${prefix}archive_
-_書 ${prefix}unarchiveall_
-_書 ${prefix}pin_
-_書 ${prefix}unpin_
-_書 ${prefix}setmenu [ _ori/simpel_ ]_
-_書 ${prefix}setallmenu [ _ori/simpel_ ]_
-_書 ${prefix}leavetime [ _detik/menit/jam_ ]_
-_書 ${prefix}bukatime [ _detik/menit/jam_ ]_
-_書 ${prefix}tutuptime [ _detik/menit/jam_ ]_
-_書 ${prefix}nano [ _nama file_ ]_             
+_✘ ${prefix}autorespon [ _on/off_ ]_
+_✘ ${prefix}bc [ _teks/reply gif/image/video with caption_ ]_
+_✘ ${prefix}tobc [ _reply sticker/audio with caption_ ]_
+_✘ ${prefix}return [ _javascript_ ]_
+_✘ ${prefix}delchat_
+_✘ ${prefix}mute_
+_✘ ${prefix}unmute_
+_✘ ${prefix}public_
+_✘ ${prefix}self_
+_✘ ${prefix}spam [ _teks|jumlah_ ]_
+_✘ ${prefix}demoteall_
+_✘ ${prefix}promoteall_
+_✘ ${prefix}addcmd [ _teks reply stc_ ]_
+_✘ ${prefix}delcmd [ _reply stc_ ]_
+_✘ ${prefix}listcmd_
+_✘ ${prefix}spamsw [ _teks|jumlah_ ]_
+_✘ ${prefix}upswteks [ _teks_ ]_
+_✘ ${prefix}upswlokasi [ _teks_ ]_
+_✘ ${prefix}upswaudio [ _reply audio_ ]_
+_✘ ${prefix}upswvoice [ _reply audio_ ]_
+_✘ ${prefix}upswsticker [ _reply sticker_ ]_
+_✘ ${prefix}upswimage [ _reply image with caption_ ]_
+_✘ ${prefix}upswgif [ _reply gif with caption_ ]_
+_✘ ${prefix}upswvideo [ _reply video with caption_ ]_
+_✘ ${prefix}shutdown_
+_✘ ${prefix}offline [ _alasan_ ]_
+_✘ ${prefix}online_
+_✘ ${prefix}exif [ _nama|author_ ]_
+_✘ ${prefix}setprofile [ _reply image_ ]_
+_✘ ${prefix}setname [ _teks_ ]
+_✘ ${prefix}setprefix [ _multi/nopref/prefix_ ]_
+_✘ ${prefix}setbio [ _teks_ ]_
+_✘ ${prefix}leave_
+_✘ ${prefix}restart_
+_✘ ${prefix}addrespon [ _tanya|jawab_ ]_
+_✘ ${prefix}delrespon [ _nama_ ]_
+_✘ ${prefix}listrespon_
+_✘ ${prefix}readall_
+_✘ ${prefix}unreadall_
+_✘ ${prefix}archive_
+_✘ ${prefix}unarchiveall_
+_✘ ${prefix}pin_
+_✘ ${prefix}unpin_
+_✘ ${prefix}setmenu [ _ori/simpel_ ]_
+_✘ ${prefix}setallmenu [ _ori/simpel_ ]_
+_✘ ${prefix}leavetime [ _detik/menit/jam_ ]_
+_✘ ${prefix}bukatime [ _detik/menit/jam_ ]_
+_✘ ${prefix}tutuptime [ _detik/menit/jam_ ]_
+_✘ ${prefix}nano [ _nama file_ ]_             
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1647,10 +1647,10 @@ case 'blmmenu':
        ini_txt += `~${get_result.quote}`
        
        menu = `*─❒ BIKIN LAG MENU (khusus owner)*
-_書 ${prefix}piltek_
-_書 ${prefix}gift_               
+_✘ ${prefix}piltek_
+_✘ ${prefix}gift_               
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1702,38 +1702,38 @@ case 'groupmenu':
        ini_txt += `~${get_result.quote}`
        
        menu = `*──❒ GROUP MENU*
-_書 ${prefix}getpict [ _@tag_ ]_
-_書 ${prefix}getname [ _reply target_ ]_
-_書 ${prefix}getbio [ _reply target_ ]_
-_書 ${prefix}promote [ _@tag_ ]_
-_書 ${prefix}demote [ _@tag_ ]_
-_書 ${prefix}antilink [ _on/off_ ]_
-_書 ${prefix}antivirtex [ _on/off_ ]_
-_書 ${prefix} welcome [ _on/off_ ]_____
-_書 ${prefix}creategrup [ _nama|@ta___g_ ]
-_書 ${prefix}tictactoe [ _@tag_ ]_
-_書 ${prefix}delttt_
-_書 ${prefix}kick_
-_書 ${prefix}add_
-_書 ${prefix}getpp_
-_書 ${prefix}getdeskgc_
-_書 ${prefix}sider [ _reply pesan bot_ ]_
-_書 ${prefix}hacked [ _teks_ ]_
-_書 ${prefix}setnamegc [ _teks_ ]_
-_書 ${prefix}setdeskgc [ _teks_ ]_
-_書 ${prefix}fitnah [ _@tag|teks1|teks2_ ]_
-_書 ${prefix}kontak [ _@tag|nama_ ]_
-_書 ${prefix}kontag [ _@tag|nama_ ]_
-_書 ${prefix}opengc_
-_書 ${prefix}closegc_
-_書 ${prefix}resetlinkgc_
-_書 ${prefix}linkgrup_
-_書 ${prefix}hidetag [ _teks_ ]_
-_書 ${prefix}sticktag [ _nama sticker_ ]_
-_書 ${prefix}totag [ _reply media_ ]_        
+_✘ ${prefix}getpict [ _@tag_ ]_
+_✘ ${prefix}getname [ _reply target_ ]_
+_✘ ${prefix}getbio [ _reply target_ ]_
+_✘ ${prefix}promote [ _@tag_ ]_
+_✘ ${prefix}demote [ _@tag_ ]_
+_✘ ${prefix}antilink [ _on/off_ ]_
+_✘ ${prefix}antivirtex [ _on/off_ ]_
+_✘ ${prefix} welcome [ _on/off_ ]_____
+_✘ ${prefix}creategrup [ _nama|@ta___g_ ]
+_✘ ${prefix}tictactoe [ _@tag_ ]_
+_✘ ${prefix}delttt_
+_✘ ${prefix}kick_
+_✘ ${prefix}add_
+_✘ ${prefix}getpp_
+_✘ ${prefix}getdeskgc_
+_✘ ${prefix}sider [ _reply pesan bot_ ]_
+_✘ ${prefix}hacked [ _teks_ ]_
+_✘ ${prefix}setnamegc [ _teks_ ]_
+_✘ ${prefix}setdeskgc [ _teks_ ]_
+_✘ ${prefix}fitnah [ _@tag|teks1|teks2_ ]_
+_✘ ${prefix}kontak [ _@tag|nama_ ]_
+_✘ ${prefix}kontag [ _@tag|nama_ ]_
+_✘ ${prefix}opengc_
+_✘ ${prefix}closegc_
+_✘ ${prefix}resetlinkgc_
+_✘ ${prefix}linkgrup_
+_✘ ${prefix}hidetag [ _teks_ ]_
+_✘ ${prefix}sticktag [ _nama sticker_ ]_
+_✘ ${prefix}totag [ _reply media_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1788,35 +1788,35 @@ case 'funmenu':
        ini_txt += `~${get_result.quote}`
        
        menu = `*─❒ FUN MENU NEW*
-_書 ${prefix}popo_
-_書 ${prefix}bego_
-_書 ${prefix}tolol_
-_書 ${prefix}pinter_
-_書 ${prefix}pintar_
-_書 ${prefix}asu_
-_書 ${prefix}bodoh_
-_書 ${prefix}gay_
-_書 ${prefix}lesby_
-_書 ${prefix}bajingan_
-_書 ${prefix}jancok_
-_書 ${prefix}anjing_
-_書 ${prefix}ngentod_
-_書 ${prefix}ngentot_
-_書 ${prefix}monyet_
-_書 ${prefix}mastah_
-_書 ${prefix}newbie_
-_書 ${prefix}bangsat_
-_書 ${prefix}bangke_
-_書 ${prefix}sange_
-_書 ${prefix}sangean_
-_書 ${prefix}dakjal_
-_書 ${prefix}horny_
-_書 ${prefix}wibu_
-_書 ${prefix}puki_
-_書 ${prefix}pantex_        
+_✘ ${prefix}popo_
+_✘ ${prefix}bego_
+_✘ ${prefix}tolol_
+_✘ ${prefix}pinter_
+_✘ ${prefix}pintar_
+_✘ ${prefix}asu_
+_✘ ${prefix}bodoh_
+_✘ ${prefix}gay_
+_✘ ${prefix}lesby_
+_✘ ${prefix}bajingan_
+_✘ ${prefix}jancok_
+_✘ ${prefix}anjing_
+_✘ ${prefix}ngentod_
+_✘ ${prefix}ngentot_
+_✘ ${prefix}monyet_
+_✘ ${prefix}mastah_
+_✘ ${prefix}newbie_
+_✘ ${prefix}bangsat_
+_✘ ${prefix}bangke_
+_✘ ${prefix}sange_
+_✘ ${prefix}sangean_
+_✘ ${prefix}dakjal_
+_✘ ${prefix}horny_
+_✘ ${prefix}wibu_
+_✘ ${prefix}puki_
+_✘ ${prefix}pantex_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1870,43 +1870,43 @@ case 'downloadmenu':
        ini_txt += `~${get_result.quote}`
        
        menu = `*─❒ DOWNLOAD MENU*
-_書 ${prefix}wallml_
-_書 ${prefix}pinterest_
-_書 ${prefix}herolist_
-_書 ${prefix}herodetail [ _hero_ ]_
-_書 ${prefix}google [ _search_ ]_
-_書 ${prefix}gimage [ _search_ ]_
-_書 ${prefix}wiki [ _search_ ]_
-_書 ${prefix}mediafire [ _link_ ]_
-_書 ${prefix}ytsearch [ _judul_ ]_
-_書 ${prefix}ytmp4 [ _link yt_ ]_
-_書 ${prefix}ytmp3 [ _link yt_ ]_
-_書 ${prefix}play [ _judul lagu_ ]_
-_書 ${prefix}video [ _judul video_ ]_
-_書 ${prefix}tinyurl [ _link_ ]_
-_書 ${prefix}fetch [ _link_ ]_
-_書 ${prefix}igdl [ _link_ ]_
-_書 ${prefix}tiktokdl [ _link_ ]_
-_書 ${prefix}pinterest [ _search_ ]_
-_書 ${prefix}lirik [ _judul_ ]_
-_書 ${prefix}tourl [ _reply image/video_ ]_
-_書 ${prefix}kalkulator [ _angka_ ]_
-_書 ${prefix}translate [ _teks kodebhs_ ]_
-_書 ${prefix}ss [ _link_ ]_
-_書 ${prefix}playstore [ _search_ ]_
-_書 ${prefix}tiktokaudio [ _link_ ]_
-_書 ${prefix}brainly [ _search_ ]_
-_書 ${prefix}igstory [ _search_ ]_
-_書 ${prefix}igstalk [ _link_ ]_
-_書 ${prefix}twitter [ _link_ ]_
-_書 ${prefix}twmp3 [ _link_ ]_
-_書 ${prefix}linkwa [ _search_ ]_
-_書 ${prefix}chara [ _search_ ]_
-_書 ${prefix}otaku [ _search_ ]_
-_書 ${prefix}komiku [ _search_ ]_        
+_✘ ${prefix}wallml_
+_✘ ${prefix}pinterest_
+_✘ ${prefix}herolist_
+_✘ ${prefix}herodetail [ _hero_ ]_
+_✘ ${prefix}google [ _search_ ]_
+_✘ ${prefix}gimage [ _search_ ]_
+_✘ ${prefix}wiki [ _search_ ]_
+_✘ ${prefix}mediafire [ _link_ ]_
+_✘ ${prefix}ytsearch [ _judul_ ]_
+_✘ ${prefix}ytmp4 [ _link yt_ ]_
+_✘ ${prefix}ytmp3 [ _link yt_ ]_
+_✘ ${prefix}play [ _judul lagu_ ]_
+_✘ ${prefix}video [ _judul video_ ]_
+_✘ ${prefix}tinyurl [ _link_ ]_
+_✘ ${prefix}fetch [ _link_ ]_
+_✘ ${prefix}igdl [ _link_ ]_
+_✘ ${prefix}tiktokdl [ _link_ ]_
+_✘ ${prefix}pinterest [ _search_ ]_
+_✘ ${prefix}lirik [ _judul_ ]_
+_✘ ${prefix}tourl [ _reply image/video_ ]_
+_✘ ${prefix}kalkulator [ _angka_ ]_
+_✘ ${prefix}translate [ _teks kodebhs_ ]_
+_✘ ${prefix}ss [ _link_ ]_
+_✘ ${prefix}playstore [ _search_ ]_
+_✘ ${prefix}tiktokaudio [ _link_ ]_
+_✘ ${prefix}brainly [ _search_ ]_
+_✘ ${prefix}igstory [ _search_ ]_
+_✘ ${prefix}igstalk [ _link_ ]_
+_✘ ${prefix}twitter [ _link_ ]_
+_✘ ${prefix}twmp3 [ _link_ ]_
+_✘ ${prefix}linkwa [ _search_ ]_
+_✘ ${prefix}chara [ _search_ ]_
+_✘ ${prefix}otaku [ _search_ ]_
+_✘ ${prefix}komiku [ _search_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1958,112 +1958,112 @@ case 'makermenu':
        ini_txt += `~${get_result.quote}`
        
        menu = `*─❒ MAKER MENU*
-_書 ${prefix}terbaikmaker teks/teks2_
-_書 ${prefix}bengekmaker teks/teks2_
-_書 ${prefix}memekertas teksnya_
-_書 ${prefix}blackpink teksnya_
-_書 ${prefix}neon teksnya_
-_書 ${prefix}greenneon teksnya_
-_書 ${prefix}advanceglow teksnya_
-_書 ${prefix}futureneon teksnya_
-_書 ${prefix}sandwriting teksnya_
-_書 ${prefix}sandsummer teksnya_
-_書 ${prefix}sandengraved teksnya_
-_書 ${prefix}metaldark teksnya_
-_書 ${prefix}neonlight teksnya_
-_書 ${prefix}holographic teksnya_
-_書 ${prefix}text1917 teksnya_
-_書 ${prefix}minion teksnya_
-_書 ${prefix}deluxesilver teksnya_
-_書 ${prefix}newyearcard teksnya_
-_書 ${prefix}bloodfrosted teksnya_
-_書 ${prefix}halloween teksnya_
-_書 ${prefix}jokerlogo teksnya_
-_書 ${prefix}fireworksparkle teksnya_
-_書 ${prefix}natureleaves teksnya_
-_書 ${prefix}bokeh teksnya_
-_書 ${prefix}toxic teksnya_
-_書 ${prefix}strawberry teksnya_
-_書 ${prefix}box3d teksnya_
-_書 ${prefix}roadwarning teksnya_
-_書 ${prefix}breakwall teksnya_
-_書 ${prefix}icecold teksnya_
-_書 ${prefix}luxury teksnya_
-_書 ${prefix}cloud teksnya_
-_書 ${prefix}summersand teksnya_
-_書 ${prefix}horrorblood teksnya_
-_書 ${prefix}thunder teksnya_
-_書 ${prefix}pornhub teksnya_
-_書 ${prefix}glitch teksnya_
-_書 ${prefix}avenger teksnya_
-_書 ${prefix}space teksnya_
-_書 ${prefix}ninjalogo teksnya_
-_書 ${prefix}marvelstudio teksnya_
-_書 ${prefix}lionlogo teksnya_
-_書 ${prefix}wolflogo teksnya_
-_書 ${prefix}steel3d teksnya_
-_書 ${prefix}wallgravity teksnya_
-_書 ${prefix}shadow teksnya_
-_書 ${prefix}cup teksnya_
-_書 ${prefix}cup1 teksnya_
-_書 ${prefix}romance teksnya_
-_書 ${prefix}smoke teksnya_
-_書 ${prefix}burnpaper teksnya_
-_書 ${prefix}lovemessage teksnya_
-_書 ${prefix}undergrass teksnya_
-_書 ${prefix}love teksnya_
-_書 ${prefix}coffe teksnya_
-_書 ${prefix}woodheart teksnya_
-_書 ${prefix}woodenboard teksnya_
-_書 ${prefix}summer3d teksnya_
-_書 ${prefix}wolfmetal teksnya_
-_書 ${prefix}nature3d teksnya_
-_書 ${prefix}underwater teksnya_
-_書 ${prefix}golderrose teksnya_
-_書 ${prefix}summernature teksnya_
-_書 ${prefix}letterleaves teksnya_
-_書 ${prefix}glowingneon teksnya_
-_書 ${prefix}fallleaves teksnya_
-_書 ${prefix}flamming teksnya_
-_書 ${prefix}harrypotter teksnya_
-_書 ${prefix}carvedwood teksnya_
-_書 ${prefix}arcade8bit teksnya_
-_書 ${prefix}battlefield4 teksnya_
-_書 ${prefix}pubg teksnya_
-_書 ${prefix}wetglass teksnya_
-_書 ${prefix}multicolor3d teksnya_
-_書 ${prefix}watercolor teksnya_
-_書 ${prefix}luxurygold teksnya_
-_書 ${prefix}galaxywallpaper teksnya_
-_書 ${prefix}lighttext teksnya_
-_書 ${prefix}beautifulflower teksnya_
-_書 ${prefix}puppycute teksnya_
-_書 ${prefix}royaltext teksnya_
-_書 ${prefix}heartshaped teksnya_
-_書 ${prefix}birthdaycake teksnya_
-_書 ${prefix}galaxystyle teksnya_
-_書 ${prefix}hologram3d teksnya_
-_書 ${prefix}greenneon teksnya_
-_書 ${prefix}glossychrome teksnya_
-_書 ${prefix}greenbush teksnya_
-_書 ${prefix}metallogo teksnya_
-_書 ${prefix}noeltext teksnya_
-_書 ${prefix}glittergold teksnya_
-_書 ${prefix}textcake teksnya_
-_書 ${prefix}starsnight teksnya_
-_書 ${prefix}wooden3d teksnya_
-_書 ${prefix}textbyname teksnya_
-_書 ${prefix}writegalacy teksnya_
-_書 ${prefix}galaxybat teksnya_
-_書 ${prefix}snow3d teksnya_
-_書 ${prefix}birthdayday teksnya_
-_書 ${prefix}goldplaybutton teksnya_
-_書 ${prefix}silverplaybutton teksnya_
-_書 ${prefix}freefire teksnya_
-_書 ${prefix}shadow teksnya_
+_✘ ${prefix}terbaikmaker teks/teks2_
+_✘ ${prefix}bengekmaker teks/teks2_
+_✘ ${prefix}memekertas teksnya_
+_✘ ${prefix}blackpink teksnya_
+_✘ ${prefix}neon teksnya_
+_✘ ${prefix}greenneon teksnya_
+_✘ ${prefix}advanceglow teksnya_
+_✘ ${prefix}futureneon teksnya_
+_✘ ${prefix}sandwriting teksnya_
+_✘ ${prefix}sandsummer teksnya_
+_✘ ${prefix}sandengraved teksnya_
+_✘ ${prefix}metaldark teksnya_
+_✘ ${prefix}neonlight teksnya_
+_✘ ${prefix}holographic teksnya_
+_✘ ${prefix}text1917 teksnya_
+_✘ ${prefix}minion teksnya_
+_✘ ${prefix}deluxesilver teksnya_
+_✘ ${prefix}newyearcard teksnya_
+_✘ ${prefix}bloodfrosted teksnya_
+_✘ ${prefix}halloween teksnya_
+_✘ ${prefix}jokerlogo teksnya_
+_✘ ${prefix}fireworksparkle teksnya_
+_✘ ${prefix}natureleaves teksnya_
+_✘ ${prefix}bokeh teksnya_
+_✘ ${prefix}toxic teksnya_
+_✘ ${prefix}strawberry teksnya_
+_✘ ${prefix}box3d teksnya_
+_✘ ${prefix}roadwarning teksnya_
+_✘ ${prefix}breakwall teksnya_
+_✘ ${prefix}icecold teksnya_
+_✘ ${prefix}luxury teksnya_
+_✘ ${prefix}cloud teksnya_
+_✘ ${prefix}summersand teksnya_
+_✘ ${prefix}horrorblood teksnya_
+_✘ ${prefix}thunder teksnya_
+_✘ ${prefix}pornhub teksnya_
+_✘ ${prefix}glitch teksnya_
+_✘ ${prefix}avenger teksnya_
+_✘ ${prefix}space teksnya_
+_✘ ${prefix}ninjalogo teksnya_
+_✘ ${prefix}marvelstudio teksnya_
+_✘ ${prefix}lionlogo teksnya_
+_✘ ${prefix}wolflogo teksnya_
+_✘ ${prefix}steel3d teksnya_
+_✘ ${prefix}wallgravity teksnya_
+_✘ ${prefix}shadow teksnya_
+_✘ ${prefix}cup teksnya_
+_✘ ${prefix}cup1 teksnya_
+_✘ ${prefix}romance teksnya_
+_✘ ${prefix}smoke teksnya_
+_✘ ${prefix}burnpaper teksnya_
+_✘ ${prefix}lovemessage teksnya_
+_✘ ${prefix}undergrass teksnya_
+_✘ ${prefix}love teksnya_
+_✘ ${prefix}coffe teksnya_
+_✘ ${prefix}woodheart teksnya_
+_✘ ${prefix}woodenboard teksnya_
+_✘ ${prefix}summer3d teksnya_
+_✘ ${prefix}wolfmetal teksnya_
+_✘ ${prefix}nature3d teksnya_
+_✘ ${prefix}underwater teksnya_
+_✘ ${prefix}golderrose teksnya_
+_✘ ${prefix}summernature teksnya_
+_✘ ${prefix}letterleaves teksnya_
+_✘ ${prefix}glowingneon teksnya_
+_✘ ${prefix}fallleaves teksnya_
+_✘ ${prefix}flamming teksnya_
+_✘ ${prefix}harrypotter teksnya_
+_✘ ${prefix}carvedwood teksnya_
+_✘ ${prefix}arcade8bit teksnya_
+_✘ ${prefix}battlefield4 teksnya_
+_✘ ${prefix}pubg teksnya_
+_✘ ${prefix}wetglass teksnya_
+_✘ ${prefix}multicolor3d teksnya_
+_✘ ${prefix}watercolor teksnya_
+_✘ ${prefix}luxurygold teksnya_
+_✘ ${prefix}galaxywallpaper teksnya_
+_✘ ${prefix}lighttext teksnya_
+_✘ ${prefix}beautifulflower teksnya_
+_✘ ${prefix}puppycute teksnya_
+_✘ ${prefix}royaltext teksnya_
+_✘ ${prefix}heartshaped teksnya_
+_✘ ${prefix}birthdaycake teksnya_
+_✘ ${prefix}galaxystyle teksnya_
+_✘ ${prefix}hologram3d teksnya_
+_✘ ${prefix}greenneon teksnya_
+_✘ ${prefix}glossychrome teksnya_
+_✘ ${prefix}greenbush teksnya_
+_✘ ${prefix}metallogo teksnya_
+_✘ ${prefix}noeltext teksnya_
+_✘ ${prefix}glittergold teksnya_
+_✘ ${prefix}textcake teksnya_
+_✘ ${prefix}starsnight teksnya_
+_✘ ${prefix}wooden3d teksnya_
+_✘ ${prefix}textbyname teksnya_
+_✘ ${prefix}writegalacy teksnya_
+_✘ ${prefix}galaxybat teksnya_
+_✘ ${prefix}snow3d teksnya_
+_✘ ${prefix}birthdayday teksnya_
+_✘ ${prefix}goldplaybutton teksnya_
+_✘ ${prefix}silverplaybutton teksnya_
+_✘ ${prefix}freefire teksnya_
+_✘ ${prefix}shadow teksnya_
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2115,18 +2115,18 @@ case 'storagemenu':
        ini_txt += `~${get_result.quote}`
        
        menu = `*─❒ STORAGE MENU*
-_書 ${prefix}listimage_
-_書 ${prefix}liststicker_
-_書 ${prefix}listvn_
-_書 ${prefix}addsticker [ _nama_ ]_
-_書 ${prefix}delsticker [ _nama_ ]_
-_書 ${prefix}addvn [ _nama_ ]_
-_書 ${prefix}delvn [ _nama_ ]_
-_書 ${prefix}addimage [ _nama_ ]_
-_書 ${prefix}delimage [ _nama_ ]_        
+_✘ ${prefix}listimage_
+_✘ ${prefix}liststicker_
+_✘ ${prefix}listvn_
+_✘ ${prefix}addsticker [ _nama_ ]_
+_✘ ${prefix}delsticker [ _nama_ ]_
+_✘ ${prefix}addvn [ _nama_ ]_
+_✘ ${prefix}delvn [ _nama_ ]_
+_✘ ${prefix}addimage [ _nama_ ]_
+_✘ ${prefix}delimage [ _nama_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2178,29 +2178,29 @@ case 'toolsmenu':
        ini_txt += `~${get_result.quote}`
        
        menu = `*─❒ TOOLS*
-_書 ${prefix}nulis teksnya_
-_書 ${prefix}sticker_
-_書 ${prefix}stickertelegram [ _NAMA STICKER_ ]_
-_書 ${prefix}stickerwm [ _nama|author_ ]_
-_書 ${prefix}dadu_
-_書 ${prefix}semoji [ _emoji_ ]_
-_書 ${prefix}attp [ _teks_ ]_
-_書 ${prefix}ttp [ _teks_ ]_
-_書 ${prefix}ttp2 [ _teks_ ]_
-_書 ${prefix}ttp3 [ _teks_ ]_
-_書 ${prefix}ttp4 [ _teks_ ]_
-_書 ${prefix}toimg_
-_書 ${prefix}tomp3 [ _reply video_ ]_
-_書 ${prefix}togif [ _reply sticker gif_ ]_
-_書 ${prefix}robot [ _reply audio_ ]_
-_書 ${prefix}balik [ _reply audio_ ]_
-_書 ${prefix}bass [ _reply audio_ ]_
-_書 ${prefix}gemuk [ _reply audio_ ]_
-_書 ${prefix}detikvn [ _reply audio caption angka_ ]_
-_書 ${prefix}detikvideo [ _reply video caption angka_ ]_        
+_✘ ${prefix}nulis teksnya_
+_✘ ${prefix}sticker_
+_✘ ${prefix}stickertelegram [ _NAMA STICKER_ ]_
+_✘ ${prefix}stickerwm [ _nama|author_ ]_
+_✘ ${prefix}dadu_
+_✘ ${prefix}semoji [ _emoji_ ]_
+_✘ ${prefix}attp [ _teks_ ]_
+_✘ ${prefix}ttp [ _teks_ ]_
+_✘ ${prefix}ttp2 [ _teks_ ]_
+_✘ ${prefix}ttp3 [ _teks_ ]_
+_✘ ${prefix}ttp4 [ _teks_ ]_
+_✘ ${prefix}toimg_
+_✘ ${prefix}tomp3 [ _reply video_ ]_
+_✘ ${prefix}togif [ _reply sticker gif_ ]_
+_✘ ${prefix}robot [ _reply audio_ ]_
+_✘ ${prefix}balik [ _reply audio_ ]_
+_✘ ${prefix}bass [ _reply audio_ ]_
+_✘ ${prefix}gemuk [ _reply audio_ ]_
+_✘ ${prefix}detikvn [ _reply audio caption angka_ ]_
+_✘ ${prefix}detikvideo [ _reply video caption angka_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2252,37 +2252,37 @@ case 'wibumenu':
        ini_txt += `~${get_result.quote}`
        
        menu = `*─❒ WIBU MENU*
-_書 ${prefix}zoro_ 
-_書 ${prefix}luffy_ 
-_書 ${prefix}sanji_ 
-_書 ${prefix}ussop_ 
-_書 ${prefix}nami_ 
-_書 ${prefix}copper_ 
-_書 ${prefix}naruto_ 
-_書 ${prefix}minato_ 
-_書 ${prefix}sasuke_ 
-_書 ${prefix}sakura_ 
-_書 ${prefix}boruto_ 
-_書 ${prefix}sarada_ 
-_書 ${prefix}mitsuki_ 
-_書 ${prefix}orochimaru_ 
-_書 ${prefix}tsunade_ 
-_書 ${prefix}kakashi_ 
-_書 ${prefix}killua_ 
-_書 ${prefix}gon_ 
-_書 ${prefix}saitama_ 
-_書 ${prefix}rimuru_ 
-_書 ${prefix}natsu_ 
-_書 ${prefix}tanjirou_ 
-_書 ${prefix}nezuko_ 
-_書 ${prefix}senku_   
-_書 ${prefix}loli_
-_書 ${prefix}husbu_
-_書 ${prefix}milf_
-_書 ${prefix}cosplay_        
+_✘ ${prefix}zoro_ 
+_✘ ${prefix}luffy_ 
+_✘ ${prefix}sanji_ 
+_✘ ${prefix}ussop_ 
+_✘ ${prefix}nami_ 
+_✘ ${prefix}copper_ 
+_✘ ${prefix}naruto_ 
+_✘ ${prefix}minato_ 
+_✘ ${prefix}sasuke_ 
+_✘ ${prefix}sakura_ 
+_✘ ${prefix}boruto_ 
+_✘ ${prefix}sarada_ 
+_✘ ${prefix}mitsuki_ 
+_✘ ${prefix}orochimaru_ 
+_✘ ${prefix}tsunade_ 
+_✘ ${prefix}kakashi_ 
+_✘ ${prefix}killua_ 
+_✘ ${prefix}gon_ 
+_✘ ${prefix}saitama_ 
+_✘ ${prefix}rimuru_ 
+_✘ ${prefix}natsu_ 
+_✘ ${prefix}tanjirou_ 
+_✘ ${prefix}nezuko_ 
+_✘ ${prefix}senku_   
+_✘ ${prefix}loli_
+_✘ ${prefix}husbu_
+_✘ ${prefix}milf_
+_✘ ${prefix}cosplay_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2334,80 +2334,80 @@ case 'harammenu':
        ini_txt += `~${get_result.quote}`
        
        menu = `*─❒ MENU HARAM*
-_書 ${prefix}bokep_
-_書 ${prefix}neko_
-_書 ${prefix}kanna_
-_書 ${prefix}sagiri_
-_書 ${prefix}megumin_
-_書 ${prefix}wallnime_
-_書 ${prefix}ass_
-_書 ${prefix}ahegao_
-_書 ${prefix}hentai_
-_書 ${prefix}yuri_
-_書 ${prefix}panties_
-_書 ${prefix}neko_
-_書 ${prefix}chiisaihentai_
-_書 ${prefix}trap_
-_書 ${prefix}blowjob_
-_書 ${prefix}yaoi_
-_書 ${prefix}ecchi_
-_書 ${prefix}ahegao_
-_書 ${prefix}hololewd_
-_書 ${prefix}sideoppai_
-_書 ${prefix}animefeets_
-_書 ${prefix}animebooty_
-_書 ${prefix}animethighss_
-_書 ${prefix}hentaiparadise_
-_書 ${prefix}animearmpits_
-_書 ${prefix}hentaifemdom_
-_書 ${prefix}lewdanimegirls_
-_書 ${prefix}biganimetiddies_
-_書 ${prefix}animebellybutton_
-_書 ${prefix}hentai4everyone_
-_書 ${prefix}bj_
-_書 ${prefix}ero_
-_書 ${prefix}cum_
-_書 ${prefix}feet_
-_書 ${prefix}yuri_
-_書 ${prefix}trap_
-_書 ${prefix}lewd_
-_書 ${prefix}feed_
-_書 ${prefix}eron_
-_書 ${prefix}solo_
-_書 ${prefix}gasm_
-_書 ${prefix}poke_
-_書 ${prefix}anal_
-_書 ${prefix}holo_
-_書 ${prefix}tits_
-_書 ${prefix}kuni_
-_書 ${prefix}kiss_
-_書 ${prefix}erok_
-_書 ${prefix}smug_
-_書 ${prefix}baka_
-_書 ${prefix}solog_
-_書 ${prefix}feetg_
-_書 ${prefix}lewdk_
-_書 ${prefix}waifu_
-_書 ${prefix}pussy_
-_書 ${prefix}femdom_
-_書 ${prefix}cuddle_
-_書 ${prefix}eroyuri_
-_書 ${prefix}cum_jpg_
-_書 ${prefix}blowjob_
-_書 ${prefix}erofeet_
-_書 ${prefix}holoero_
-_書 ${prefix}classic_
-_書 ${prefix}erokemo_
-_書 ${prefix}fox_girl_
-_書 ${prefix}futanari_
-_書 ${prefix}lewdkemo_
-_書 ${prefix}wallpaper_
-_書 ${prefix}pussy_jpg_
-_書 ${prefix}kemonomimi_
-_書 ${prefix}nsfw_avatar_        
+_✘ ${prefix}bokep_
+_✘ ${prefix}neko_
+_✘ ${prefix}kanna_
+_✘ ${prefix}sagiri_
+_✘ ${prefix}megumin_
+_✘ ${prefix}wallnime_
+_✘ ${prefix}ass_
+_✘ ${prefix}ahegao_
+_✘ ${prefix}hentai_
+_✘ ${prefix}yuri_
+_✘ ${prefix}panties_
+_✘ ${prefix}neko_
+_✘ ${prefix}chiisaihentai_
+_✘ ${prefix}trap_
+_✘ ${prefix}blowjob_
+_✘ ${prefix}yaoi_
+_✘ ${prefix}ecchi_
+_✘ ${prefix}ahegao_
+_✘ ${prefix}hololewd_
+_✘ ${prefix}sideoppai_
+_✘ ${prefix}animefeets_
+_✘ ${prefix}animebooty_
+_✘ ${prefix}animethighss_
+_✘ ${prefix}hentaiparadise_
+_✘ ${prefix}animearmpits_
+_✘ ${prefix}hentaifemdom_
+_✘ ${prefix}lewdanimegirls_
+_✘ ${prefix}biganimetiddies_
+_✘ ${prefix}animebellybutton_
+_✘ ${prefix}hentai4everyone_
+_✘ ${prefix}bj_
+_✘ ${prefix}ero_
+_✘ ${prefix}cum_
+_✘ ${prefix}feet_
+_✘ ${prefix}yuri_
+_✘ ${prefix}trap_
+_✘ ${prefix}lewd_
+_✘ ${prefix}feed_
+_✘ ${prefix}eron_
+_✘ ${prefix}solo_
+_✘ ${prefix}gasm_
+_✘ ${prefix}poke_
+_✘ ${prefix}anal_
+_✘ ${prefix}holo_
+_✘ ${prefix}tits_
+_✘ ${prefix}kuni_
+_✘ ${prefix}kiss_
+_✘ ${prefix}erok_
+_✘ ${prefix}smug_
+_✘ ${prefix}baka_
+_✘ ${prefix}solog_
+_✘ ${prefix}feetg_
+_✘ ${prefix}lewdk_
+_✘ ${prefix}waifu_
+_✘ ${prefix}pussy_
+_✘ ${prefix}femdom_
+_✘ ${prefix}cuddle_
+_✘ ${prefix}eroyuri_
+_✘ ${prefix}cum_jpg_
+_✘ ${prefix}blowjob_
+_✘ ${prefix}erofeet_
+_✘ ${prefix}holoero_
+_✘ ${prefix}classic_
+_✘ ${prefix}erokemo_
+_✘ ${prefix}fox_girl_
+_✘ ${prefix}futanari_
+_✘ ${prefix}lewdkemo_
+_✘ ${prefix}wallpaper_
+_✘ ${prefix}pussy_jpg_
+_✘ ${prefix}kemonomimi_
+_✘ ${prefix}nsfw_avatar_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2459,11 +2459,11 @@ case 'gamemenu':
        ini_txt += `~${get_result.quote}`
        
        menu = `*─❒GAME MENU*
-_書 ${prefix}tebakgambar_
-_書 ${prefix}caklontong_        
+_✘ ${prefix}tebakgambar_
+_✘ ${prefix}caklontong_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2515,37 +2515,37 @@ case 'othermenu':
        ini_txt += `~${get_result.quote}`
        
        menu = `*─❒ OTHER MENU*
-_書 ${prefix}cogan_ 
-_書 ${prefix}cecan_ 
-_書 ${prefix}meme_ 
-_書 ${prefix}darkjoke_
-_書 ${prefix}memeindo_
-_書 ${prefix}asupan_
-_書 ${prefix}quotes_
-_書 ${prefix}rate_
-_書 ${prefix}kapankah_
-_書 ${prefix}apakah_
-_書 ${prefix}bisakah_
-_書 ${prefix}caripesan [ _teks|jumlah_ ]_
-_書 ${prefix}slots_
-_書 ${prefix}suit [ _gunting/batu/kertas_ ]_
-_書 ${prefix}tag [ _nomor_ ]_
-_書 ${prefix}tagme_
-_書 ${prefix}tts [ _kodebhs teks_ ]_
-_書 ${prefix}readmore [ _teks1|teks2_ ]_
-_書 ${prefix}fitnahpc [ _nomor|teks1|teks2_ ]_
-_書 ${prefix}chat [ _nomor|teks_ ]_
-_書 ${prefix}fdeface [ _replyimg link|teks1|teks2_ ]_
-_書 ${prefix}listgrup_
-_書 ${prefix}baileys [ _reply message_ ]_
-_書 ${prefix}q [ _reply message_ ]_
-_書 ${prefix}getcaption [ _reply message_ ]_
-_書 ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]_
-_書 ${prefix}sharelock [ _teks1|teks2_ ]_
+_✘ ${prefix}cogan_ 
+_✘ ${prefix}cecan_ 
+_✘ ${prefix}meme_ 
+_✘ ${prefix}darkjoke_
+_✘ ${prefix}memeindo_
+_✘ ${prefix}asupan_
+_✘ ${prefix}quotes_
+_✘ ${prefix}rate_
+_✘ ${prefix}kapankah_
+_✘ ${prefix}apakah_
+_✘ ${prefix}bisakah_
+_✘ ${prefix}caripesan [ _teks|jumlah_ ]_
+_✘ ${prefix}slots_
+_✘ ${prefix}suit [ _gunting/batu/kertas_ ]_
+_✘ ${prefix}tag [ _nomor_ ]_
+_✘ ${prefix}tagme_
+_✘ ${prefix}tts [ _kodebhs teks_ ]_
+_✘ ${prefix}readmore [ _teks1|teks2_ ]_
+_✘ ${prefix}fitnahpc [ _nomor|teks1|teks2_ ]_
+_✘ ${prefix}chat [ _nomor|teks_ ]_
+_✘ ${prefix}fdeface [ _replyimg link|teks1|teks2_ ]_
+_✘ ${prefix}listgrup_
+_✘ ${prefix}baileys [ _reply message_ ]_
+_✘ ${prefix}q [ _reply message_ ]_
+_✘ ${prefix}getcaption [ _reply message_ ]_
+_✘ ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]_
+_✘ ${prefix}sharelock [ _teks1|teks2_ ]_
         
        
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2674,7 +2674,7 @@ _ℒ⃝👨‍💻 Name Creator : KurrXd_
 JASA HOSTING BOT
 _kurrxdstore.xyz_
 `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'STORE BOT'},type:1},{buttonId:`speed`,buttonText:{displayText:'SPEED BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'STORE BOT'},type:1},{buttonId:`speed`,buttonText:{displayText:'SPEED BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2826,7 +2826,7 @@ break
         stod = `${sender}`
  listMsg = {
  buttonText: 'LIST STORE',
- footerText: '*_© Yuki ゑ_*',
+ footerText: '*_© Lana Botz ✘_*',
  description: `Ohayoo @${stod.split('@')[0]}, Silahkan Mau Beli Apa Kak...`,
  sections: [
                      {
@@ -6335,7 +6335,7 @@ break
        
        menu = ` BOT TELAH AKTIF SELAMA:${waktu(runtime)}
  `
-sendButLocation(from, `${menu}`, "*_© Yuki ゑ_*", {jpegThumbnail:ofrply3,name:""}, [{buttonId:`owner`,buttonText:{displayText:'OWNER THIS BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply3,name:""}, [{buttonId:`owner`,buttonText:{displayText:'OWNER THIS BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
