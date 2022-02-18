@@ -1450,45 +1450,45 @@ kurr.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mention
  rows: [
                           {
                               "title": "INFO THIS BOT",
-                              "description": '•|----Info Bot----|•',
+                              "description": '[✨]INFO BOTZ',
                               "rowId": ""
                             
                            },
                            {
                               "title": "SEWABOT",
-                              "description": '•|----Rent Bot----|•',
+                              "description": '[💣]RENT BOTZ',
                               "rowId": ""
                             
                            },
                           {
                               "title": "GRUP OFFICIAL BOT",
-                              "description": '•|----Grup Bot----|•',
+                              "description": '[🐤]GRUP BOTZ',
                               "rowId": ""
                             
                            },
                            {
                               "title": "groupmenu",
-                              "description": '•|----Grup Menu----|•',
+                              "description": '•[🎭]GRUP MENU',
                               "rowId": ""
                            },
                            {
                               "title": "downloadmenu",
-                              "description": '•|----Download Menu----|•',
+                              "description": '•[🎁]DOWNLOAD MENU',
                               "rowId": ""
                            },
                            {
                               "title": "makermenu",
-                              "description": '•|----Maker Menu----|•',
+                              "description": '[🎉]MAKER MENU',
                               "rowId": ""
                            },
                            {
                            "title": "wibumenu",
-                              "description": '•|----Wibu Menu----|•',
+                              "description": '[🎎]WIBU MENU',
                               "rowId": ""
                            },
                            {
                            "title": "harammenu",
-                              "description": '•|----18+ Menu----|•',
+                              "description": '[👗]18+ MENU',
                               "rowId": ""
                            },
                            {
