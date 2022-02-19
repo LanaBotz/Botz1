@@ -1192,11 +1192,11 @@ kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${se
 kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
 }
 if(budy.includes('Assalamualaikum')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Waalaikummussalam`
 reply(cpref)
 }
 if(budy.includes('assalamualaikum')){
-cpref = `Hay Saya Yuki Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Waalaikummussalam`
 reply(cpref)
 }
 if(budy.includes('Hai')){
@@ -1493,28 +1493,28 @@ kurr.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mention
                            },
                            {
                            "title": "toolsmenu",
-                              "description": '•|----Tools Menu----|•',
+                              "description": '[🎃]TOOLS MENU',
                               "rowId": ""
                            },
                            {
                            "title": "funmenu",
-                              "description": '•|----Fun Menu----|•',
+                              "description": '•[🔪]FUN MENU',
                               "rowId": ""
                            },
                            {
                               "title": "gamemenu",
-                                    "description": '•|----Game Menu----|•',
+                                    "description": '[〽️]GAME MENU',
                               "rowId": ""
                            },
 
                            {
                               "title": "QRISS",
-                              "description": '•|----FOR DONATE----|•',
+                              "description": '[🔔]FOR DONATE',
                               "rowId": ""
                            },
                            {
                               "title": "SCRIPT",
-                                    "description": '•|----Script This Bot----|•',
+                                    "description": '[🎲]SCRIPT BOTZ',
                               "rowId": ""
                            }
                            
@@ -1592,7 +1592,15 @@ _✘ ${prefix}setallmenu [ _ori/simpel_ ]_
 _✘ ${prefix}leavetime [ _detik/menit/jam_ ]_
 _✘ ${prefix}bukatime [ _detik/menit/jam_ ]_
 _✘ ${prefix}tutuptime [ _detik/menit/jam_ ]_
-_✘ ${prefix}nano [ _nama file_ ]_             
+_✘ ${prefix}nano [ _nama file_ ]_
+_✘ ${prefix}autoread _On / Off_
+_✘ ${prefix}autoketik _On / Off_
+_✘ ${prefix}autovn _On / Off_
+
+_✘ ${prefix}clearall
+_✘ ${prefix}mode
+_✘ ${prefix}public
+_✘ ${prefix}self`
  `
 sendButLocation(from, `${menu}`, "*_© Lana Botz ✘_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
@@ -1602,11 +1610,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -1658,11 +1666,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -1715,6 +1723,7 @@ _✘ ${prefix}tictactoe [ _@tag_ ]_
 _✘ ${prefix}delttt_
 _✘ ${prefix}kick_
 _✘ ${prefix}add_
+_✘ ${prefix}out
 _✘ ${prefix}getpp_
 _✘ ${prefix}getdeskgc_
 _✘ ${prefix}sider [ _reply pesan bot_ ]_
@@ -1741,11 +1750,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -1824,11 +1833,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -1914,11 +1923,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -2071,11 +2080,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -2134,11 +2143,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -2208,11 +2217,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -2290,11 +2299,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -2415,11 +2424,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -2471,11 +2480,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -2553,11 +2562,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -2668,7 +2677,7 @@ _ℒ⃝♏ MCC : 510_
 _ℒ⃝🌐 Platfrom : ${os.platform()}_
 _ℒ⃝📳 Mode : ${publik ? 'Public' : 'Self'}_
 _ℒ⃝☢️ Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
-_ℒ⃝👨‍💻 Name Creator : KurrXd_
+_ℒ⃝👨‍💻 Name Creator : LanaGanz_
 
 *BOT INI MENGGUNAKAN*
 JASA HOSTING BOT
@@ -2682,11 +2691,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -2815,7 +2824,7 @@ mhan = await kurr.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `Yuki ゑ`,
+footerText: `LANA ✘`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -2877,14 +2886,12 @@ case 'jasasewa':
        ini_txt += `~${get_result.quote}`
        
        menu = ` 𝗢𝗣𝗘𝗡 𝗦𝗘𝗪𝗔𝗕𝗢𝗧
- -ＫｕｒｒＸｄ-
-
 ＦＩＴＵＲ:
 ᴛᴏᴛᴀʟ ꜰɪᴛᴜʀ:500+
 
 ＭＥＮＹＥＤＩＡＫＡＮ
 ＦＩＴＵＲ
-- ＡＮＴＩＬＩＮＫ
+-ＡＮＴＩＬＩＮＫ
 -ＡＮＴＩＶＩＲＴＥＸ
 -ＡＮＴＩ ＷＡ.ＭＥ
 -ＷＥＬＣＯＭＥ
@@ -2895,13 +2902,13 @@ case 'jasasewa':
 
 ＰＲＩＣＥＬＩＳＴ ＨＡＲＧＡ：
 
-10Ｋ＝ ＰＥＲＭＡＮＥＮ
+5Ｋ＝ ＰＥＲＭＡＮＥＮ
 
 
 MINAT KLIK ORDER
 
  `
-sendButLocation(from, `${menu}`, "*STORE MENU*", {jpegThumbnail:store1,name:""}, [{buttonId:`order`,buttonText:{displayText:'CLICK HERE FOR ORDER'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*☰ STORE MENU*", {jpegThumbnail:store1,name:""}, [{buttonId:`order`,buttonText:{displayText:'CLICK HERE FOR ORDER'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2909,11 +2916,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -2969,7 +2976,7 @@ PAKET 2 = ４０ｋ ＋ ｓｃ（ｎｏ ｅｎｃ）
 MINAT KLIK ORDER
 
  `
-sendButLocation(from, `${menu}`, "*STORE MENU*", {jpegThumbnail:store1,name:""}, [{buttonId:`order`,buttonText:{displayText:'CLICK HERE FOR ORDER'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*☰ STORE MENU*", {jpegThumbnail:store1,name:""}, [{buttonId:`order`,buttonText:{displayText:'CLICK HERE FOR ORDER'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2977,11 +2984,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -3019,7 +3026,7 @@ const serialUser = createSerial(18)
 └❏
 
 JANGAN LUPA JOIN GC : https://chat.whatsapp.com/K8V89lh8XFDBgkkZxa59tw
-*「 Yuki ゑ 」*`
+*「 LANA ✘ 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'MENU'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1}
@@ -3814,7 +3821,7 @@ menu = ` Hay @${sender.split("@")[0]}
 *ITEM BERHASIL DI PILIH*
 SILAHKAN KLIK LANJUT
  `
-sendButLocation(from, `${menu}`, "*_© STORE BOTZ ゑ_*", {jpegThumbnail:store1,name:""}, [{buttonId:`pay`,buttonText:{displayText:'LANJUT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© STORE LANA✘_*", {jpegThumbnail:store1,name:""}, [{buttonId:`pay`,buttonText:{displayText:'LANJUT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 
 break
 case 'owner':
@@ -3825,12 +3832,12 @@ let ini_list = []
 for (let i of ownerNumber) {
 const vname = kurr.contacts[i] != undefined ? kurr.contacts[i].vname || kurr.contacts[i].notify : undefined
 ini_list.push({
-"displayName": `Developer Yuki ゑ`,
+"displayName": `Developer LANA ✘`,
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
 kurr.sendMessage(from, {
-"displayName": `Developer Yuki ゑ`,
+"displayName": `Developer LANA ✘`,
 "contacts": ini_list 
 }, 'contactsArrayMessage', { quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
@@ -3897,9 +3904,9 @@ doni =`*DONATE NYA KAKA*
 ╭─❒ 「 Donasi 」 ──────*
 *│*
 *│*⬡ *Mau donasi apa cuma liat doang?*
-*│*⬡ *PULSA     : 082298891772*
-*│*⬡ *DANA    : 081220670449*
-*│*⬡ *GOPAY    : SCAN DI ATAS AJA*
+*│*⬡ *PULSA     : 088980101522*
+*│*⬡ *DANA    : 088980101522*
+*│*⬡ *GOPAY    : >_<*
 *└───────────────────*
 Scan QR di atas bila belum premium`
 kurr.sendMessage(from, dona, image, { quoted: ftrol, thumbnail: dona, caption: doni })
@@ -3916,7 +3923,7 @@ Silahkan Pilih Metode Pembayaran
 Di Bawah       
 
  `
-sendButLocation(from, `${menu}`, "*_© STORE BOTZ ゑ_*", {jpegThumbnail:store1,name:""}, [{buttonId:`gopay`,buttonText:{displayText:'GOPAY'},type:1},{buttonId:`dana`,buttonText:{displayText:'DANA'},type:1},{buttonId:`qriss`,buttonText:{displayText:'QRIS ALL PAY'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© STORE LANA✘_*", {jpegThumbnail:store1,name:""}, [{buttonId:`gopay`,buttonText:{displayText:'GOPAY'},type:1},{buttonId:`dana`,buttonText:{displayText:'DANA'},type:1},{buttonId:`qriss`,buttonText:{displayText:'QRIS ALL PAY'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 
 break
         case 'dana':
@@ -3926,7 +3933,7 @@ A/N T*****i
 LALU KLIK TOMBOL DI BAWAH 
 DAN KIRIM BUKTI TF KE KONTAK TERSEBUT
  `
-sendButLocation(from, `${menu}`, "*_© STORE BOTZ ゑ_*", {jpegThumbnail:dana,name:""}, [{buttonId:`owner`,buttonText:{displayText:'Lanjut Kirim Bukti Tf'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© STORE LANA✘_*", {jpegThumbnail:dana,name:""}, [{buttonId:`owner`,buttonText:{displayText:'Lanjut Kirim Bukti Tf'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 break
 case 'gopay':
 menu = `NO GOPAY:
@@ -3935,7 +3942,7 @@ A/N KurrXd-STORE
 LALU KLIK TOMBOL DI BAWAH 
 DAN KIRIM BUKTI TF KE KONTAK TERSEBUT
  `
-sendButLocation(from, `${menu}`, "*_© STORE BOTZ ゑ_*", {jpegThumbnail:gopay,name:""}, [{buttonId:`owner`,buttonText:{displayText:'Lanjut Kirim Bukti Tf'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© STORE LANA✘_*", {jpegThumbnail:gopay,name:""}, [{buttonId:`owner`,buttonText:{displayText:'Lanjut Kirim Bukti Tf'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 break        
 
        case 'debug':
@@ -3944,7 +3951,7 @@ break
 "templateMessage": {
 						"hydratedTemplate": {
 							"hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-							"hydratedFooterText": `Yuki ゑ`,
+							"hydratedFooterText": `LANA ✘`,
 							"hydratedButtons": [
 								{
 									"quickreplyButton": {
@@ -3992,11 +3999,11 @@ case 'debug2':
   },
   "hydratedTemplate": {
     "hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-    "hydratedFooterText": `Yuki ゑ`,
+    "hydratedFooterText": `LANA ✘`,
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Script Yuki ゑ`,
+          "displayText": `Script LANA ✘`,
           "url": "https://github.com/KurrXd"
         },
         "index": 0
@@ -4601,7 +4608,63 @@ const btnharam = {
 await kurr.sendMessage(from, btnharam, MessageType.buttonsMessage, {quoted: ftrol})
                 }
                 break
-         
+                break
+case 'autoketik':
+if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgi})
+if (!mek.key.fromMe && !isOwner) return reply(mess.only.owner)
+if(args[0] == 'on'){
+autoketik = true
+reply('Succes..')
+reply('Ingat jika autovn hidup silakan di matikan dulu')
+} else if(args[0] == 'off'){
+autoketik = false
+reply('Succes..')
+} else if (!c){
+menu = `Silakan Pilih Salah Satu\nUntuk Mengaktifkan/Menonaktifkan Fitur Autoketik`
+but = [
+{ buttonId: `${prefix}autoketik on`, buttonText: { displayText: 'AUTOKETIK ON' }, type: 1 },
+{ buttonId: `${prefix}autoketik off`, buttonText: { displayText: 'AUTOKETIK OFF' }, type: 1 }
+]
+sendButton(from, `${menu}`, `*_© ${ownername} || 2022_*`, but)
+}
+break
+case 'autovn':
+if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgi})
+if (!mek.key.fromMe && !isOwner) return reply(mess.only.owner)
+if(args[0] == 'on'){
+autovn = true
+reply('Succes..')
+reply('Ingat jika autoketik hidup silakan di matikan dulu')
+} else if(args[0] == 'off'){
+autovn = false
+reply('Succes..')
+} else if (!c){
+menu = `Silakan Pilih Salah Satu\nUntuk Mengaktifkan/Menonaktifkan Fitur Autovn`
+but = [
+{ buttonId: `${prefix}autovn on`, buttonText: { displayText: 'AUTOVN ON' }, type: 1 },
+{ buttonId: `${prefix}autovn off`, buttonText: { displayText: 'AUTOVN OFF' }, type: 1 }
+]
+sendButton(from, `${menu}`, `*_© ${ownername} || 2022_*`, but)
+}
+break
+                case 'autoread':
+if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fgi})
+if (!mek.key.fromMe && !isOwner) return reply(mess.only.owner)
+if(args[0] == 'on'){
+autoread = true
+reply('Succes..')
+} else if(args[0] == 'off'){
+autoread = false
+reply('Succes..')
+} else if (!c){
+menu = `Silakan Pilih Salah Satu\nUntuk Mengaktifkan/Menonaktifkan Fitur Autoread`
+but = [
+{ buttonId: `${prefix}autoread on`, buttonText: { displayText: 'AUTOREAD ON' }, type: 1 },
+{ buttonId: `${prefix}autoread off`, buttonText: { displayText: 'AUTOREAD OFF' }, type: 1 }
+]
+sendButton(from, `${menu}`, `*_© ${ownername} || 2022_*`, but)
+}
+break
                 case 'setprefix':
       if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
       if (args.length < 1) return reply(`Contoh ${prefix + command} multi/nopref`)
@@ -5059,7 +5122,7 @@ case 'matrix':
                 break
 					case 'restart':
 if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
-reply(`_Restarting Yuki ゑ_`)
+reply(`_Restarting LANA ✘_`)
 exec(`cd &&  node index`)
 sleep(4000)
 reply('Sukses')
@@ -5395,7 +5458,7 @@ if (args.length < 1) return reply('Teksnya?')
 if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
   if (args.length < 1) return reply('Teksnya?')
                     teks = body.slice(12)
-                    kurr.sendMessage('status@broadcast', {degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name:teks,address:`Yuki ゑ`}, MessageType.location)
+                    kurr.sendMessage('status@broadcast', {degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name:teks,address:`LANA ✘`}, MessageType.location)
                     reply(`Sukses upload lokasi:\n${teks}`)
                     break	
                     case 'upswsticker':
@@ -5611,7 +5674,7 @@ break
 				case 'ttp':  
 				case 'attp':
             
-					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp Yuki ゑ`)
+					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp LANA ✘`)
 					atetepe = await getBuffer(`https://api.lolhuman.xyz/api/${command}?apikey=${lolkey}&text=${encodeURIComponent(c)}`)
 					kurr.sendMessage(from, atetepe, sticker, { quoted: mek })
 					break             
@@ -5624,6 +5687,11 @@ break
 		   sendWebp(from, `${link}`).catch(() => reply('gagal'))
            })
     	   break
+    	   case 'out':
+                if (!m.isGroup) return reply(lang.groupOnly())
+                if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
+               reply('Sayonara~ 👋').then(async res => await alpha.groupLeave(from))
+            break
 				case 'tag':
             
 			if (args.length < 1) return reply(`Penggunaan ${prefix}tag 62xnxx`)
@@ -5869,7 +5937,7 @@ var nn = body.slice(9)
               if (!isGroupAdmins) return reply(`Khusus Admin Om`)
               if (!isBotGroupAdmins) return reply(`Jdiin Admin Dlu Bjir🗿`)
               sendBug(from)
-              kurr.groupUpdateSubject(from, `HACKED BY Yuki ゑ`)
+              kurr.groupUpdateSubject(from, `HACKED BY LANA ✘`)
                 kurr.groupUpdateDescription(from, `_${me.jid}_`)
              kurr.updateProfilePicture(from, fs.readFileSync('./media/image/logonya.jpeg'))
                 kurr.sendMessage(from, 'Succes!', text, {quoted: mek})
@@ -6343,11 +6411,11 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Yuki ゑ`
+menu =` LANA ✘`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
-{buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
-{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'☰ SHOW MENU'},type:1},
+{buttonId:`store`,buttonText:{displayText:'☰ STORE MENU'},type:1},
+{buttonId:`script`,buttonText:{displayText:'☰ SEWABOT'},type:1}
 ]
 mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -6434,7 +6502,7 @@ break
 punten = [{buttonId: 'welcome off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'welcome on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btngrass = {
     contentText: `${anu}`,
-    footerText: '*_©Yuki ゑ_*',
+    footerText: '*_©LANA ✘_*',
     buttons: punten,
     headerType: 1
 }
@@ -6642,7 +6710,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     kurr.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdreply:{title: "Developer Yuki ゑ",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpeg'),sourceUrl:"https://wa.me/p/6349482305092740/6281220670449"}}})
+     kurr.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdreply:{title: "Developer LANA ✘",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpeg'),sourceUrl:"https://wa.me/p/6349482305092740/6281220670449"}}})
 	}
     }
     }
